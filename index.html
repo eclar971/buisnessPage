@@ -1,0 +1,115 @@
+<!--Ernest Clark
+Personal Webpage
+Februrary 10 2022-->
+
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="icon" href="toaster.png">
+    <head>
+        <title>
+            Business Webpage
+        </title>
+    </head>
+    <body>
+        <script src="scripts.js"></script>
+            <header class="sticky">
+                <nav>
+                    <ul>
+                        <li><a href="index.html" id="img" onclick="clearStorage()"><img href="index.html" onclick="showPage()" src="toaster.png"></a></li>
+                        <li><a onclick="hidePage(this)" href="#top">Products</a></li>
+                        <li><a onclick="hidePage(this)" href="#top">Support</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="parent">
+                <div id="Products" class="none">
+                    <div class="grid-container-3">
+                        <div>
+                            2-slot Toasters
+                            <hr>
+                            <li><a onclick="loadProduct(this)">Breville Die-Cast 2-Slice Smart Toaster</a></li>
+                            <li><a onclick="loadProduct(this)">Cuisinart 2 Slice Compact Plastic Toaster</a></li>
+                            <li><a onclick="loadProduct(this)">Oster Black Stainless Collection 2-Slice Toaster</a></li>
+                            <li><a onclick="loadProduct(this)">Zwilling 2-Slice Toaster</a></li>
+                            <li><a onclick="loadProduct(this)">Revolution Cooking R180 2-Slice High-Speed Toaster</a></li>
+                        </div>
+                        <div>
+                            4-slot Toasters
+                            <hr>
+                            <li><a onclick="loadProduct(this)">Cuisinart 4-Slice Metal Classic Toaster</a></li>
+                            <li><a onclick="loadProduct(this)">Hamilton Beach Keep Warm 4-Slice Long Slot Toaster</a></li>
+                            <li><a onclick="loadProduct(this)">Sencor Stainless Steel 4-Slice Toaster</a></li>
+                            <li><a onclick="loadProduct(this)">All-Clad 4-Slice Digital Toaster</a></li>
+                            <li><a onclick="loadProduct(this)">Black and Decker 4-Slice Toaster</a></li>
+                        </div>
+                    </div>
+                </div>
+                <div id="Support" class="none">
+                    <div class="grid-container-1">
+                        <div>
+                            <li>Phone Number
+                                <ul>
+                                    <li>480-546-2842</li>
+                                </ul>
+                            </li>
+                            <hr>
+                            <li>Emails
+                                <ul>
+                                    <li><a href="mailto:ernieclark1210@gmail.com">ernieclark1210@gmail.com</a></li>
+                                    <li><a href="mailto:eclar971@evit.com">eclar971@evit.com</a></li>
+                                    <li><a href="mailto:toasterareus@toasterco.com">toasterareus@toasterco.com</a></li>
+                                </ul>
+                            </li>
+                            <hr>
+                            <li>Support Forum
+                                <ul>
+                                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Forum</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+                <div class="shown-page" id="page" onclick="showPage()">
+                </div>
+            </div>
+            <div class="Home child" id="child">
+                <div class="flex-1">
+                    <div>
+                        <div class="sub_heading">About Us</div>
+                        <div class="para">
+                            &emsp;On the right of your screen you will see our beautiful headquaters located <a href="https://www.google.com/maps/place/Apple+Park/@37.3336484,-122.0106123,17.82z/data=!4m15!1m9!4m8!1m3!2m2!1d-122.0099075!2d37.3312788!1m3!2m2!1d-122.0099385!2d37.331248!3m4!1s0x808fb596e9e188fd:0x3b0d8391510688f0!8m2!3d37.3346438!4d-122.008972">
+                            directly south of the apple headquarters in Cupertino, CA </a>. This is where
+                            we spend billions of dollars on R&D trying to make the perfect toaster
+                            for anyones needs. We create and distrubute these toaster designs to many companies
+                            were they fabricate and sell them to you our costumers. Over the years we have desinged
+                            many toasters in the above drop down you can see our top 5 toasters of both 4 and 2 slot varities
+                        </div>
+                    </div>
+                    <img src="background.jpg" alt="headquaters">
+                </div>
+                <div class="flex-1">
+                    <img src="employees.jpg" alt="headquaters">
+                    <div>
+                        <div class="sub_heading">Our Employees</div>
+                        <div class="para">
+                            &emsp;On the left of your screen you will see our diverse set of employees. We have over 100
+                            thousand people currenlty employed under our company. We have many teams for many things
+                            suchs as testing and modling. We also offer fantastic health and benifits plans aswell as a 401k and fantastic dental insurance.
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-container-1">
+                    <div id="footerFirstLine">
+                        <img src="toaster.png"><li>USA - United States</li>
+                        <div class="foot">
+                            <li><a href="privacyPolicy.html">Privacy Policy</a></il>
+                            <li><a href="legal.html">Legal</a></li>
+                            <li><a href="accessibility.html">Accessibility</a></li>
+                    </div>
+                    </div>
+                    Copyright © 2022 Toaster Corporation
+            </div>
+    </body>
+</html></html>
